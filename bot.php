@@ -1,16 +1,5 @@
 <?php
 ob_start();
-/*
-این سورس ساخته شده در دو تیم👇
-
-🔹 @Lite_Team 🔹
-🔸 @soros_robot 🔸
-و توسط ادمین های زیر👇
-🔹 @mohammadstar_98 🔹
-🔸 @Amirhossein_Taypram 🔸
-
-نوشته شده است😜
-*/
 define('API_KEY','1479792699:AAE7FBrBTcCej-QEK18Vovl6eoaWEBpr5TE');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
@@ -270,16 +259,5 @@ if (!in_array($chat_id,$pmembersid)){
  $aaddd .= $chat_id."\n";
  file_put_contents('data/users.txt',$aaddd);
 }
-/*
-این سورس ساخته شده در دو تیم👇
-
-🔹 @Lite_Team 🔹
-🔸 @soros_robot 🔸
-و توسط ادمین های زیر👇
-🔹 @mohammadstar_98 🔹
-🔸 @Amirhossein_Taypram 🔸
-
-نوشته شده است😜
-*/
-                      unlink("error_log");
+unlink("error_log");
 ?>
